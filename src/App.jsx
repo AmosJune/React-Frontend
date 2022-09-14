@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router';
-import Card from './component/Card/Card';
-import ViewQuotes from './component/ViewQuotes/ViewQuotes';
-import NavBar from './NavBar/NavBar';
-import Home from './Home/Home';
+import { Routes, Route } from 'react-router-dom';
+import Card from './components/Card/Card';
+import ViewQuotes from './components/ViewQuotes/ViewQuotes';
+import NavBar from './components/NavBar/NavBar';
+import Home from './components/Home/Home';
 
 function App() {
   const[quotes, setQuotes] = useState([])
