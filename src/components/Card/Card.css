@@ -1,0 +1,41 @@
+.quotes{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 600px;
+    margin-bottom: 3%;
+    max-height: 370px;
+    background-color: beige;
+    margin-top: 10px;
+  }
+
+.buttons a{
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 10px;
+    background-color: #CC5500;
+    font-weight: lighter;
+    color: beige;
+  }
+
+.buttons{
+    align-items: center;
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+  }
+
+.btns{
+  height: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.description{
+    padding: 10px 12px;
+    font-size: 0.6rem;
+}
+
