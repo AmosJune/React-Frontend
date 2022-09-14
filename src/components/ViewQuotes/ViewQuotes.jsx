@@ -1,24 +1,14 @@
 import React from 'react';
+import Card from '../Card/Card';
 
-
-function ViewQuotes() {
-    const { data: posts, loading} = useFetch('http://localhost:9292/authors')
+function ViewQuotes({quotes, id}) {
+    const quote_container = quotes.map((item, index) => {
+        return <Card key={index} name={item.name} description={item.description} id={id}/>
+    })
 
     return(
         <div>
-            {loading ? <p>Loading...</p> : null}
-            {
-                posts.map((post) => (
-                    <div>
-                        <p>Author{post.author}</p>
-                        <h3>Quote{post.quote}</h3>
-                    {/* <Link to={`/quotes/${quote.id}`} >
-                        <p></p>
-                        <p></p>
-                    </Link> */}
-                    </div>
-                ))
-            }
+           {quote_container}
         </div>
     )
 }
