@@ -22,7 +22,7 @@ function Card({name,quote,description, link,s_id}){
             <p className="description">{description}</p>
 
             <div id="btns" className="buttons">
-                <a href={link} target="_blank" rel="noreferrer">Edit</a>
+                <a href={link} target="_blank">Edit</a>
                 <p className="btns" onClick={handleClick}>Save</p>
             </div>
         </div>
