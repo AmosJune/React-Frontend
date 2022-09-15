@@ -1,0 +1,10 @@
+.home p{
+    margin: 50px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.home img{
+    padding: 50px 50px;
+    height: 50vh;
+}
